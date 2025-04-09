@@ -1,0 +1,57 @@
+
+#pFilme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    background-color: #dfdfdf;
+    padding-bottom: 20px;
+}
+
+.card_filme{
+}
+
+#elenco{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 10px;
+    background-color: rgb(184, 181, 181);
+    text-align: center;
+}
+#elenco > div{
+    width: 70px;
+    height: 100%;
+}
+#elenco > div > img{
+    width: 64px;
+    height: 100%;
+}
+#elenco > div > p{
+    
+}
+#elenco > div:hover{
+    opacity: 0.7;
+}
+h3{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#sinopseFilme{
+    
+
+    padding: 10px;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 768px){
+    main, main >*, iframe{
+        max-width: 100%;
+    }
+
+}
+
