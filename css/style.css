@@ -9,6 +9,9 @@ header{
     background-color: #960F0F;
 }
 
+span{
+    color: white;
+}
 body{
     display: flex;
     flex-direction: column;
