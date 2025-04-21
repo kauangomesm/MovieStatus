@@ -1,0 +1,27 @@
+.carroseu > div{
+    width: 75%;
+}
+
+.card a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    outline: none;
+}
+
+@media screen and (max-width: 900px) {
+    .carroseu > div{
+        width: 100%;
+    }
+
+
+    #titulo {
+        text-align: center;
+      }
+  
+      #img {
+        margin: 0 auto;
+        display: block;
+      }
+}

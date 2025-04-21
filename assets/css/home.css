@@ -1,0 +1,4 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: brightness(0) saturate(100%) invert(25%) sepia(85%) saturate(4424%) hue-rotate(342deg) brightness(94%) contrast(105%);
+}
